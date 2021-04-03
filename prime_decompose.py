@@ -16,3 +16,7 @@ def prime_decompose(n):
 if __name__=="__main__":
     prime_decompose(2**100-1)
     prime_decompose(149)
+
+#bug report: 
+#  prime_decompose(2**100-3) works fine.
+#  prime_decompose(2**100-3) will print: "1267650600228229401496703205373 = 13 * 419 *" then the engine will crash
