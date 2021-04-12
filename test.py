@@ -1,4 +1,0 @@
-#coding=gbk
-
-s="ฤใบร"
-print s
